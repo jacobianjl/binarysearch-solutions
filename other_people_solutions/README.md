@@ -1,1 +1,1 @@
-Other peoples solutions that are really elegant
+Other people's solutions that are really elegant
