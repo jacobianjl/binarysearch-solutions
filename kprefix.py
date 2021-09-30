@@ -10,3 +10,14 @@ class Solution:
                 return len(nums) - 1 - i
         return -1
 
+# Another solution
+class Solution:
+    def solve(self, nums, k):
+        sum = 0
+        position = -1
+        for index, value in enumerate(nums):
+            sum += value
+            if sum <= k:
+                position = index
+        return position
+
